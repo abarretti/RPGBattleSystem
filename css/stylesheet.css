@@ -1,0 +1,81 @@
+body {
+    font-family:"Arial";
+    background:url("../imgs/macalaniaPond.jpg");
+    background-position: center;
+    background-position: top;
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+
+h1 {
+	font-size:40px;
+    color:#ffffff;
+}
+
+div.character {
+	display:inline-block;
+	width:45%;
+    height:500px;
+}
+
+div.tidus {
+    float:left;
+    border:1px solid;
+}
+
+.tidus h1 {
+    padding-left:55%; 
+}
+
+.tidus img {
+    height:340px;
+    float:right;
+    display:inline-block;
+    padding-top:177px;
+}
+
+div.seymour {
+	float:right;
+    border:1px solid;
+}
+
+.seymour h1 {
+    padding-left: 15%;
+}
+
+.seymour img {
+    height:400px;
+    padding-top: 120px;
+}
+
+form {
+    display:block;
+    clear:both;
+    color:#ffffff;
+    border: 1px solid;
+}
+
+div.statusBar {
+    color:#ffffff;
+    clear:right;
+    width:25%;
+    float:right;
+    padding-right:10%;
+    padding-top:30px;
+}
+
+.statusBar progress {
+    width:100%;
+    display:block;
+    float:left;
+}
+
+progress::-moz-progress-bar {
+    background:#fba105;
+}
+
+.statusBar table {
+    float:left;
+    display:block;
+    clear:both;
+}

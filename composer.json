@@ -1,0 +1,18 @@
+{
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "silex/silex": "~2.0",
+        "twig/twig": "^1.35"
+    },
+
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "FF10\\": "app/FF10"
+        }
+    }
+
+}
